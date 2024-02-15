@@ -17,7 +17,7 @@ struct TrafficLightView: View {
     var body: some View {
         VStack {
             Circle()
-                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 90)
                 .foregroundColor(currentColor == .red ? .red : .gray)
                 .padding()
             
